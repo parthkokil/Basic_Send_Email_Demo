@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Send Email App"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_email_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@color/white"
+        android:hint="Enter Recipient Email Address"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit_mail_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@color/white"
+        android:hint="Enter your Subject here"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit_mail_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@color/white"
+        android:hint="Write your message here"
+        android:lines="6"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/send_email_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#673AB7"
+        android:text="Send Email"
+        android:textAllCaps="true"
+        android:textSize="16sp" />
+
+</LinearLayout>
